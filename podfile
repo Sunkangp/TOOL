@@ -1,0 +1,20 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '8.0'
+
+xcodeproj 'QQQQQQQQQQQQQQQQQ.project'
+
+inhibit_all_warnings!
+
+
+
+use_frameworks!
+
+target :QQQQQQQQQQQQQQQQQ do
+    pod 'AFNetworking', '~> 3.0.4'
+    pod 'Masonry'
+    pod 'IQKeyboardManager'
+    pod 'BlocksKit', '~> 2.2.5'
+    pod 'libextobjc', '~> 0.4.1'
+    pod 'TXScrollLabelView'
+end
